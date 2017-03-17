@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+   height:100%
+}
+
+.column {
+         float: left;
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+
+.column.full { width: 100%; }
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%; }
+.column.third { width: 33.3%; }
+.column.fourth { width: 25%; }
+.column.fifth {width:20%; }
+.column.flow-opposite { float: right; }
+
+.nav-bar{
+    background-color:rgba(60,115,137,.5);
+    height: 100px;
+}
+
+.nav-container{
+    float: right;
+    display: table;
+    height: 100px;
+}
+
+.nav-container h4{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    color:#565656;
+    font-family: Kurale;
+    font-size: 1.5rem;
+    font-weight:100;
+}
+
+h3{
+    font-size:45px;
+    font-family: snell roundhand;
+    background-color:rgba(206,220,225,.5);
+    border-radius:8px;
+    padding:1%;
+    color:#565656;
+}
+
+.logo img{
+    width:30%;
+    height:auto;
+}
+
+button{
+    font-family:Kurale;
+    font-size:35px;
+    background-color: #D44357;
+    border: none;
+    color: white;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom:10%;
+}
+
+.special{
+    background-color:white;
+    color:#D44357;
+    border: solid;
+    border-width:3px;
+    border-color:#D44357;
+}
+
+p{
+    font-family:kurale;
+    font-size:35px;
+    font-weight:100;
+    color:#565656;
+}
+
+.heading{
+    text-align: center;
+    font-family: snell roundhand;
+    font-size:45px;
+    color: #565656;
+    font-weight:300;
+}
+
+.packages{
+    text-align:center;
+}
+
+.hierarchy{
+    background-color:rgba(117,51,64,.2);
+    border-radius:8px;
+}
+
+.weddingJoy{
+    padding:1%;
+    border-radius:6px;
+}
+
+.offset{
+    padding-top:2%;
+}
