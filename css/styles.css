@@ -55,3 +55,56 @@ h4{
     width:100%;
     height:auto;
 }
+
+.whiteBox{
+    color:white;
+    padding: 30px;
+    position:absolute;  
+}
+
+button{
+    font-family:Kurale;
+    font-size:30px;
+    background-color: #D44357;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.heading{
+    text-align:center;
+    background-color:rgba(60,115,137,.5);
+}
+
+.heading h2{
+    color:white;
+    font-family:snell roundhand;
+    font-size:30px;
+}
+
+.about img{
+    width:100%;
+}
+
+p{
+    font-family:kurale;
+    font-size:20px;
+}
+
+.portfolio img{
+   width:20%;
+   height:auto;
+}
+
+.caption p{
+    text-align: center;
+}
+
+.contact img{
+    width:100%;
+}
