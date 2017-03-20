@@ -4,88 +4,99 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MJ Photography</title>
+  <link rel= "stylesheet" href="css/font-awesome.css">     
   <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">    
   <link rel= "stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="column full nav-bar">
-        <div class = "logo column one-third">
+        <a href="index.html"><div class = "logo column fifth">
             <img src = "images/Logo.png">
-      </div>
+      </div></a> 
       <div class="nav-container">
-          <h4 class="about-scroll">About</h4>
-          <h4 class="portfolio-scroll">Portfolio</h4>
-          <h4 class="skills-scroll">Packages</h4>
-          <h4 class="contact-scroll">Contact</h4>
+          <h4> <a href="index.html#about">About</a></h4>
+          <h4 href="index.html#portfolio"> <a href="index.html#portfolio">Portfolio</a></h4>
+          <h4 ><a href="packages.html">Packages</a></h4>
+          <h4><a href="index.html#contact">Contact</a></h4>
      </div>
     </div>
     <div class="column full hero">
         <!--<img class="hero-img " src= "images/Large%20pexels-photo-313707.jpeg">-->
         <div class="hero-text">
            <h2>MJ Photography</h2>
-           <button>View Packages</button>    
+           <a href="packages.html"> <button>View Packages</button> </a>   
         </div>
     </div>
     <div class = "heading column full">
       <h2>About</h2>    
     </div>
-    <div class = " column full about">      
+    <div id="about" class = " column full about">      
       <div class="about-box">
         <p>My name is Marina.
            I’m passionate about good photography.
            I’m also passionate about helping women to feel beautiful about themselves.
            Everyone woman needs at least one shot that  makes her feel gorgeous. <br><br>
-           I’m located in Central IL but willing to travel and my specialty is weddings and engagements but I also dabble in family and graduation shots. 
+           I’m located in Central IL but willing to travel and my speccoverialty is weddings and engagements but I also dabble in family and graduation shots. 
         </p> 
         <button>Contact</button>
       </div>    
     </div>
-    <div class = "heading column full">
-      <h2> Portfolio</h2>
+    <div id="portfolio"  class = "heading column full">
+      <h2>Portfolio</h2>
     </div>
-    <div class ="column full">
+    <div class ="column full portfolio-pics">
+    <div class ="column full portfolio">
+      <div class ="caption column three-fifths">
+        <p class="left-top-caption">Tim and Jacqueline</p>
+        <img class="left-img-one" src="images/TimandJacqueline.png">
+      </div>
+      <div class ="caption column two-fifths">
+        <p class="right-top-caption" >Frank and Carol</p>
+        <img class="right-img-top" src="images/FrankandCarole.png">
+      </div>
+    </div>
     <div class ="column full portfolio">
       <div class ="caption column half">
-        <p>Tim and Jacqueline</p>
-        <img src="images/TimandJacqueline.png">
+        <p class="right-bottom-top-caption">Paul and Daniela</p>  
+        <img class="left-img-two" src="images/PaulandDaniela.png">
+        <p class="left-bottom-caption" >Paul and Daniela</p>
       </div>
-      <div class ="caption column half">
-        <p>Frank and Carol</p>
-        <img src="images/FrankandCarole.png">
+      <div class = "caption column fifth">
+        <p class="right-bottom-top-caption">Henry and Jen</p>
+        <img class="middle-img-bottom" src="images/HenryandJen.png">
+        <p class="middle-bottom-caption">Henry and Jen</p>
       </div>
-    </div>
-    <div class ="column full portfolio">
-      <div class ="caption column third">
-        <img src="images/PaulandDaniela.png">
-        <p>Paul and Daniela</p>
-      </div>
-      <div class = "caption column third">
-        <img src="images/HenryandJen.png">
-        <p>Henry and Jen</p>
-      </div>
-       <div class = "caption column third">
-        <img src="images/RobertandMarina.png">
-        <p>Robert and Marina</p>
+       <div class = "caption column thirty">
+        <p class="right-bottom-top-caption">Robert and Marina</p>
+        <img class="right-img-bottom" src="images/RobertandMarina.png">
+        <p class="right-bottom-caption" >Robert and Marina</p>
       </div>
     </div>
-      <button>View Packages</button>
+       <div class="column full packages-button">    
+        <a href="details.html"><button>View Packages</button></a> 
+    </div> 
     </div>
-    <div class = "heading column full">
+    <div id="contact" class = "heading column full">
       <h2>Contact</h2>
     </div>
     <div class = "column full contact">
-      <img src="images/contactPhoto.jpeg">
-      <form>
-        Name<br>
-        <input type="text" name="firstname"><br>
-        Email<br>
-        <input type="text" name="lastname">
-        Message<br>
-        <input type="text" name="lastname">
-        <input type="submit" value="Submit">
-      </form>
-    </div>
+        <form action="/action_page.php">
+            <input type="text" id="fname" name="firstname" placeholder="Name..">
 
+            <input type="text" id="lname" name="lastname" placeholder="Email...">
+            
+            <input type="text" id="lname" name="lastname" placeholder="Phone Number...">
+            
+            <textarea placeholder="Tell me about yourself, what package you’re interested in and what dates you’re looking at!" rows="7" cols="50" ></textarea>
+            
+            <input type="submit" value="Send">
+        </form>
+        <div class="icon-footer-row">
+            <i class=" column fourth fa fa-envelope"></i>
+            <i class=" column fourth fa fa-facebook-square "></i>
+            <i class=" column fourth fa fa-twitter-square"></i>
+            <i class=" column fourth fa fa-linkedin-square"></i></div>
+    </div>
     
 </body>
 </html>
