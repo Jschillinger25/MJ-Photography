@@ -15,7 +15,7 @@ a{
 
 .hero{
     height:100%;
-    background: url(../images/Large%20pexels-photo-313707.jpeg) no-repeat left bottom fixed; 
+    background: url(../images/Large_pexels-photo-313707.jpeg) no-repeat left bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -66,7 +66,7 @@ a{
 }
 
 h4{
-    font-family: Kurale;
+    font-family: Kurale, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -124,7 +124,7 @@ button{
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 .heading{
@@ -182,7 +182,7 @@ button{
 }
 
 p{
-    font-family:kurale;
+    font-family:Kurale;
     font-size:20px;
 }
 
