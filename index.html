@@ -12,12 +12,14 @@
 </head>
 <body>
     <div class="column full nav-bar">
-        <a href="index.html"><div class = "logo column fifth">
+      <a href="index.html">
+      <div class = "logo column fifth">
             <img src = "images/Logo.png">
-      </div></a> 
+      </div>
+      </a> 
       <div class="nav-container">
           <h4> <a href="index.html#about">About</a></h4>
-          <h4 href="index.html#portfolio"> <a href="index.html#portfolio">Portfolio</a></h4>
+          <h4 > <a class="project-scroll">Portfolio</a></h4>
           <h4 ><a href="packages.html">Packages</a></h4>
           <h4><a href="index.html#contact">Contact</a></h4>
      </div>
@@ -29,7 +31,7 @@
            <a href="packages.html"> <button>View Packages</button> </a>   
         </div>
     </div>
-    <div class = "heading column full">
+    <div id="about-top" class = "heading column full">
       <h2>About</h2>    
     </div>
     <div id="about" class = " column full about">      
@@ -43,7 +45,7 @@
         <button>Contact</button>
       </div>    
     </div>
-    <div id="portfolio"  class = "heading column full">
+    <div id="projects-top" id="portfolio"  class = "heading column full">
       <h2>Portfolio</h2>
     </div>
     <div class ="column full portfolio-pics">
@@ -78,7 +80,7 @@
         <a href="details.html"><button>View Packages</button></a> 
     </div> 
     </div>
-    <div id="contact" class = "heading column full">
+    <div id="contact-top" class = "heading column full">
       <h2>Contact</h2>
     </div>
     <div class = "column full contact">
@@ -97,8 +99,10 @@
             <i class=" column fourth fa fa-envelope"></i>
             <i class=" column fourth fa fa-facebook-square "></i>
             <i class=" column fourth fa fa-twitter-square"></i>
-            <i class=" column fourth fa fa-linkedin-square"></i></div>
+            <i class=" column fourth fa fa-linkedin-square"></i>
+        </div>
     </div>
-    
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/home.js"></script>
 </body>
 </html>
