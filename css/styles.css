@@ -1,9 +1,3 @@
-*, *::before, *::after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 body, html {
    height:100%
 }
@@ -13,14 +7,6 @@ a{
     text-decoration: none;
 }
 
-.hero{
-    height:100%;
-    background: url(../images/Large_pexels-photo-313707.jpeg) no-repeat left bottom fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 .column {
          float: left;
@@ -39,100 +25,24 @@ a{
 .column.thirty{width: 30%;}
 .column.flow-opposite { float: right; }
 
-div.nav.column.full{
-    width: 100%;
-}
-
 .nav{
+    width:100%;
     position:absolute;
     display:table;
 }
 
-.nav .column.third{
-    height:70px;
-    display:table-cell;
-}
-
-.nav.column.full{
-    padding-left:0%;
-    padding-right:0%;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right:0;
-    text-align: left;
-    background-color:white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin-right:6%;
-    margin-left:20%;
-    padding-right:0%;
-    padding-left:0%;
-    margin-top:0%;
-}
-
-.dropdown-content li{
-    color: rgba(117, 51, 64, .5);
-    text-decoration: none;
-    display: block;
-    font-size:20px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.dropdown-content a{
-    color: rgba(117, 51, 64, 1);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size:20px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.dropdown-content li:hover {
-    background-color:rgba(117, 51, 64, .5);
-}
-
-.dropdown:hover .dropdown-content {
-    display:block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: rgba(117, 51, 64, 1);
-}
-
 .dropdown{
-    font-size:50px;
     color:white;
-    position: relative;
-    display: inline-block;
-    margin-top:2%;
-    padding-right:2%;
-    text-align: right;
 }
 
-.dropdown:hover{
-    cursor: pointer;
+.hero{
+    height:100%;
+    background: url(../images/Large_pexels-photo-313707.jpeg) no-repeat left bottom fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-.logo img{
-    width:14%;
-    vertical-align: middle;
-    margin-top:6%;
-    margin-left:2%;
-}
-
-.logo img:hover {
-    cursor: pointer;
-}
-
 
 h4{
     font-family: 'Raleway', sans-serif;
@@ -148,18 +58,6 @@ h3{
     opacity:.8;
     font-weight:100;
 }
-
-.heading h2{
-    color:white;
-    font-family: 'Great Vibes', cursive;
-    font-size:30px;
-}
-
-/*.hero-img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-}*/
 
 .hero-text{
     width: 700px;
@@ -182,11 +80,6 @@ h3{
 }
 
 .hero-text button{
-     margin-bottom:0%;
-    padding-bottom:0%;
-}
-
-.hero-text button{
     font-family: 'Raleway', sans-serif;
     font-size:25px;
     background-color: #D44357;
@@ -199,6 +92,8 @@ h3{
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-weight: lighter;
+    margin-bottom:0%;
+    padding-bottom:0%;
 }
 
 .about-box button{
@@ -234,10 +129,14 @@ h3{
 .heading{
     height: 80px;
     display: table;
+    text-align:center;
+    background-color:rgba(60,115,137,.5);
 }
 
 .heading h2{
-    font-size: 48px;
+    color:white;
+    font-family: 'Great Vibes', cursive;
+    font-size:48px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -276,11 +175,6 @@ h3{
     margin-bottom: 0%;
 }
 
-.heading{
-    text-align:center;
-    background-color:rgba(60,115,137,.5);
-}
-
 .about img{
     width:100%;
 }
@@ -298,7 +192,7 @@ p{
     height: 90%;
 }
 
-div.caption.column.two-fifths{
+.caption.column.two-fifths{
     height: 200px;
 }
 
@@ -539,53 +433,19 @@ button:hover{
 }
 
 @media (max-width: 790px) {
-    .nav-container{
-        height: 100%;
-        width: 320px;
-    }
-
-    .nav-container h4{
-        width: 80px;
-    }
-
-    .nav-container a:hover{
-        font-size: 1.2rem;
-    }
-
     h4{
         font-size: 1rem;
     }
     
-    .nav-bar{
-        height: 70px;
-    }
-    
-    .logo img{
-        width:60px;
-        padding-top: 5%;
-    }
-    
-    .logo.column.fifth{
-        padding-left: 0%;
-        padding-right: 0%;
-    }
     
     .hero-text{
         width: 450px;
-        height: 200px;
+        height: 250px;
     }
 
     .hero-text h2{
         font-size: 48px;
         margin-bottom: 5%;
-    }
-
-    button{
-        font-size:24px;
-        width: 200px;
-        height: 50px;
-        font-weight: 100;
-        
     }
     
     .about-box{
@@ -609,6 +469,31 @@ button:hover{
     .heading h2{
         font-size: 36px;
     }
+    
+    .hero-text button{
+      font-size:25px;
+      width: 225px;
+      height: 50px;
+    }
+
+    .about-box button{
+      font-size:25px;
+      width: 225px;
+      height: 50;
+    }
+
+    .portfolio-pics button{
+      font-size:25px;
+      width: 225px;
+      height: 50px;
+    }
+    
+    input[type=submit] {
+      font-size:25px;
+      width: 225px;
+      height: 50px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -742,23 +627,52 @@ button:hover{
 
 @media (max-width: 500px) {
     
+    .logo img{
+        width:50px;
+        padding-top: 13%;
+    }
+    
     form{
         width: 300px;
         right: 50%;
         transform: translate(50%,-50%);
     }
     
-    .nav-container{
-        height: 100%;
-        width: 280px;
-    }
-    
-    .nav-container h4{
-        width: 70px;
-    }
-    
     h4{
         font-size: .8rem;
+    }
+    
+    h3{
+    font-size:20px;
+    }
+    
+    .hero-text{
+        width: 450px;
+        height: 260px;
+    }
+    
+    .hero-text button{
+      font-size:22px;
+      width: 200px;
+      height: 50px;
+    }
+
+    .about-box button{
+      font-size:22px;
+      width: 200px;
+      height: 50;
+    }
+
+    .portfolio-pics button{
+      font-size:22px;
+      width: 200px;
+      height: 50px;
+    }
+    
+     input[type=submit] {
+      font-size:22px;
+      width: 200px;
+      height: 50px;
     }
     
     .logo img{
@@ -766,9 +680,6 @@ button:hover{
         padding-top: 13%;
     }
     
-    .nav-container a:hover{
-        font-size: .8rem;
-    }
     
     .hero-text{
         width: 350px;
@@ -778,15 +689,6 @@ button:hover{
     .hero-text h2{
         font-size: 36px;
         margin-bottom: 10%;
-    }
-
-    
-    button{
-        font-size:24px;
-        width: 200px;
-        height: 50px;
-        font-weight: 100;
-        
     }
     
     .about-box{
@@ -802,50 +704,22 @@ button:hover{
         font-size: 20px;
         line-height: 24px;
     }
-    
+      
     
 }
 @media (max-width: 400px) {
-    .nav-bar.column.full{
-        width: 95%;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    
-    .nav-container{
-        height: 100%;
-        width: 252px;
-    }
-
-    .nav-container h4{
-        width: 63px;
-    }
-
-    .nav-container a:hover{
-        font-size: .8rem;
-    }
-
     h4{
         font-size: .8rem;
     }
     
-    .nav-bar{
-        height: 60px;
-    }
-    
     .logo img{
-        width:40px;
-        padding-top: 25%;
-        margin-left: 20%;
-        margin-right: 0%;
-        margin-left: 8%;
-        
+        width:50px;
+        padding-top: 5%;
+        vertical-align: middle;
+        margin-top:0%;
+        margin-left:2%;
     }
     
-    .logo.column.fifth{
-        padding-left: 0%;
-        padding-right: 0%;
-    }
     
     .hero-text{
         width: 280px;
@@ -854,16 +728,8 @@ button:hover{
 
     .hero-text h2{
         font-size: 36px;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         margin-top: 15%;
-    }
-
-    button{
-        font-size:24px;
-        width: 200px;
-        height: 50px;
-        font-weight: 100;
-        
     }
     
     .heading{
@@ -876,7 +742,7 @@ button:hover{
     
     .about-box{
         width: 280px;
-        height: 420px;
+        height: 455px;
         position: absolute;
         right: 50% ;
         top: 50%;
@@ -943,12 +809,6 @@ button:hover{
         padding-right: 0%;
     }
     
-    button{
-        font-size:18px;
-        width: 175px;
-        height: 40px;
-        font-weight: 100; 
-    }
     
     form{
         width: 260px;
@@ -958,12 +818,6 @@ button:hover{
         height: 500px;
     }
     
-    input[type=submit] {
-        margin-top: 5%;
-        font-size:24px;
-        width: 260px;
-        height: 40px;
-    }
     
     textarea{
         padding: 6px 10px;
@@ -986,10 +840,6 @@ button:hover{
     
     .contact i{
         font-size: 24px;
-    }
-    
-    div.logo.column.fifth{
-        width: 8%;
     }
      
 }
