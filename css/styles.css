@@ -39,41 +39,109 @@ a{
 .column.thirty{width: 30%;}
 .column.flow-opposite { float: right; }
 
-.nav-bar{
-    background-color:rgba(60,115,137,.4);
-    height: 80px;
+div.nav.column.full{
+    width: 100%;
+}
+
+.nav{
+    position:absolute;
+    display:table;
+}
+
+.nav .column.third{
+    height:70px;
+    display:table-cell;
+}
+
+.nav.column.full{
+    padding-left:0%;
+    padding-right:0%;
+}
+
+.dropdown-content {
+    display: none;
     position: absolute;
+    right:0;
+    text-align: left;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-right:6%;
+    margin-left:20%;
+    padding-right:0%;
+    padding-left:0%;
+    margin-top:0%;
 }
 
-.nav-container{
-    float: right;
-    display: table;
-    height: 80px;
-    width: 600px;
+.dropdown-content li{
+    color: rgba(117, 51, 64, .5);
+    text-decoration: none;
+    display: block;
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
 }
 
-.nav-container h4{
-    display: table-cell;
-    vertical-align: middle;
+.dropdown-content a{
+    color: rgba(117, 51, 64, 1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.dropdown-content li:hover {
+    background-color:rgba(117, 51, 64, .5);
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(117, 51, 64, 1);
+}
+
+.dropdown{
+    font-size:50px;
     color:white;
-    width: 140px;
-    font-weight:200;
+    position: relative;
+    display: inline-block;
+    margin-top:2%;
+    padding-right:2%;
+    text-align: right;
 }
 
-.nav-container a:hover{
-    font-size: 1.7rem;
-    color:#D44357;
+.dropdown:hover{
     cursor: pointer;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo img{
+    width:14%;
+    vertical-align: middle;
+    margin-top:6%;
+    margin-left:2%;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+
 h4{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
 }
 
 h3{
-    font-family: 'Lato', sans-serif;
-    font-size:1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
     color: #753340;
     margin-top:0%;
     margin-bottom:5%;
@@ -81,21 +149,9 @@ h3{
     font-weight:100;
 }
 
-.logo{
-    display: table;
-    height: 100%;
-}
-
-.logo img{
-    width:75px;
-    display: table-cell;
-    vertical-align: middle;
-    padding-top: 2%;
-}
-
 .heading h2{
     color:white;
-    font-family: 'Pinyon Script', cursive;
+    font-family: 'Great Vibes', cursive;
     font-size:30px;
 }
 
@@ -120,13 +176,49 @@ h3{
 .hero-text h2{
     font-size: 60px;
     color: #753340;
-    font-family: 'Pinyon Script', cursive;
-    margin-bottom: 0%;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 3%;
+    margin-top: 6%;
 }
 
-button{
-    font-family: 'Lato', sans-serif;
-    font-size:30px;
+.hero-text button{
+     margin-bottom:0%;
+    padding-bottom:0%;
+}
+
+.hero-text button{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    background-color: #D44357;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: lighter;
+}
+
+.about-box button{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    background-color: #D44357;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: lighter;
+}
+
+.portfolio-pics button{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
     background-color: #D44357;
     border: none;
     color: white;
@@ -152,7 +244,7 @@ button{
 
 .about{
     height:90%;
-    background: url(../images/aboutphoto.png) no-repeat left center fixed; 
+    background: url(../images/guess-attic-837156.jpg) no-repeat left center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -194,7 +286,7 @@ button{
 }
 
 p{
-    font-family: 'Lato', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-size:20px;
 }
 
@@ -294,6 +386,7 @@ div.caption.column.two-fifths{
     vertical-align: middle;
     position: relative;
     top: -20px;
+    
 }
 
 .right-bottom-top-caption{
@@ -332,7 +425,7 @@ textarea{
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 18px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 input[type=text], select {
@@ -344,18 +437,18 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 18px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 input[type=submit] {
     margin-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size:24px;
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
     background-color: #D44357;
     border: none;
     color: white;
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    height: 60px;
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
