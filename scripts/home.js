@@ -9,3 +9,9 @@ $(".contact-scroll").click(function() {
         scrollTop: $("#contact-top").offset().top
     }, 1000);
 });
+
+$(".about-scroll").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about-top").offset().top
+    }, 1000);
+});

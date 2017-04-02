@@ -39,6 +39,7 @@
     padding-right:0%;
     padding-left:0%;
     margin-top:0%;
+    border-radius: 8px;
 }
 
 .dropdown-content li{
@@ -47,6 +48,7 @@
     display: block;
     font-size:20px;
     font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
 }
 
 .dropdown-content a{
@@ -56,18 +58,20 @@
     display: block;
     font-size:20px;
     font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
 }
 
 .dropdown-content li:hover {
     background-color:rgba(117, 51, 64, .5);
 }
 
-.dropdown:hover .dropdown-content {
-    display:block;
+.dropdown-content a:hover {
+    background-color:rgba(117, 51, 64, .5);
+    color:white;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: rgba(117, 51, 64, 1);
+.dropdown:hover .dropdown-content {
+    display:block;
 }
 
 .dropdown{
@@ -75,7 +79,7 @@
     position: relative;
     display: inline-block;
     margin-top:2%;
-    padding-right:2%;
+    padding-right:3%;
     text-align: right;
 }
 
