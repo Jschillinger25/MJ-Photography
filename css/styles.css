@@ -220,7 +220,7 @@ p{
 
 .left-img-one{
     padding-left: 20%;
-    object-position: 0% 0%;
+    object-position: 50% 40%;
     
 }
 
@@ -302,7 +302,7 @@ form{
     height: 600px;
     position: absolute;
     right: 100px ;
-    top: 60%;
+    top: 55%;
     transform: translate(-0%,-50%);
     text-align: center;
     border-radius: 15px;
