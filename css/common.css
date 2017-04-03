@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.hidden{
+    display: none;
+}
+
 .logo img{
     width:60px;
     vertical-align: middle;
@@ -26,7 +30,6 @@
 }
 
 .dropdown-content {
-    display: none;
     position: absolute;
     right:0;
     text-align: left;
@@ -34,7 +37,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-right:3%;
+    margin-right:8%;
     margin-left:20%;
     padding-right:0%;
     padding-left:0%;
@@ -68,10 +71,6 @@
 .dropdown-content a:hover {
     background-color:rgba(117, 51, 64, .5);
     color:white;
-}
-
-.dropdown:hover .dropdown-content {
-    display:block;
 }
 
 .dropdown{

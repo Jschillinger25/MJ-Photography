@@ -1,3 +1,27 @@
+.button{
+    text-align: center;
+    margin-bottom:10%;
+    margin-top:5%;
+}
+
+.button button{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    background-color: #D44357;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: lighter;
+    margin-bottom:0%;
+    padding-bottom:0%;
+}
+
+
 body, html {
    height:100%
 }
@@ -75,7 +99,7 @@ h3{
     line-height: 1.7;
     padding-left:15%;
     padding-right:15%;
-    margin-bottom:8%;
+    margin-bottom:0%;
 }
 
 .page{
@@ -129,7 +153,7 @@ img{
    background:white;
    font-size:35px;
    color:rgba(60,115,137,.5);
-   margin-top:5%;
+   margin-top:20%;
 }
 
 .icon-footer-row{

@@ -15,3 +15,16 @@ $(".about-scroll").click(function() {
         scrollTop: $("#about-top").offset().top
     }, 1000);
 });
+
+$(".dropdown").click(function(e){
+    $(".dropdown-content").show();
+     e.stopPropagation();
+});
+
+$(".dropdown").click(function(e){
+    e.stopPropagation();
+});
+
+$(document).click(function(){
+    $(".dropdown-content").hide();
+});
