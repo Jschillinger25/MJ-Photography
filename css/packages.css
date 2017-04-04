@@ -2,6 +2,10 @@ body, html {
    height:100%
 }
 
+ .button{
+        display:none;
+    }
+
 a{
     color: white;
     text-decoration: none;
@@ -185,6 +189,31 @@ p{
        
     }
     
+    .button{
+        display:block;
+    }
+    
+    button{
+      background-color: #D44357;
+      border: none;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size:25px;
+      width: 225px;
+      height: 50px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      font-weight: lighter;
+      margin-bottom:6%;
+      padding-bottom:0%;
+      margin-top:0%;
+      padding-top:0%;
+    }
+    
+
+    
     h5{
         margin-top:4%;
         margin-bottom:2%;
@@ -199,6 +228,7 @@ p{
     p{
         font-size:30px;
         margin-top:4%;
+        margin-bottom:4%;
     }
 }
 
@@ -217,6 +247,12 @@ p{
     h2{
         font-size: 50px;
         margin-top:25%;
+    }
+    
+    button{
+      font-size:22px;
+      width: 150px;
+      height: 50px;
     }
     
     .footer{
