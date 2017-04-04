@@ -309,7 +309,6 @@ form{
 }
 
 
-
 textarea{
     width: 100%;
     padding: 12px 20px;
@@ -318,9 +317,11 @@ textarea{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Raleway', sans-serif;
+    line-height:1.7;
 }
+
 
 input[type=text], select {
     width: 100%;
