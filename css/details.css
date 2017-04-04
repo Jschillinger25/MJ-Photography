@@ -17,7 +17,7 @@
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-weight: lighter;
-    margin-bottom:0%;
+    margin-bottom:5%;
     padding-bottom:0%;
 }
 
@@ -80,8 +80,8 @@ h3{
     font-family: 'Raleway', sans-serif;
     color:#565656;
     font-size:25px;
-    margin-bottom:7%;
-    margin-top:3%;
+    margin-bottom:6%;
+    margin-top:4%;
 }
 
 .text p{
@@ -203,6 +203,10 @@ img{
     .heading-one h2{
         font-size: 50px;
     }
+    
+     .column.full.text{
+        margin-bottom:2%;
+    }
 
 }
 
@@ -214,6 +218,8 @@ img{
     
     .features p{
         padding-left:30%;
+        margin-bottom:3%;
+        margin-top:1%;
     }
     
     .text{
@@ -232,6 +238,15 @@ img{
         padding-left:1%;
         padding-right:1%;
     }
+    
+    .button button{
+    font-size:25px;
+    width: 225px;
+    height: 50px;
+}
+     .column.full.text{
+        margin-bottom:2%;
+    }
 
 }
 
@@ -242,12 +257,19 @@ img{
         padding-top: 13%;
     }
     
+        .button button{
+    font-size:22px;
+    width: 200px;
+    height: 50px;
+    margin-bottom:10%;
+}
+    
     img{
         width:300px;
     }
     
      .features p{
-        padding-left:2%;
+        padding-left:25%;
         font-size:20px;
     }
 
@@ -267,6 +289,10 @@ img{
     
     .text p{
         font-size:20px;
+    }
+    
+    .column.full.text{
+        margin-bottom:2%;
     }
     
     .footer{

@@ -212,6 +212,10 @@ p{
       padding-top:0%;
     }
     
+    button:hover{
+        cursor: pointer;
+    }
+    
 
     
     h5{
@@ -251,9 +255,10 @@ p{
     
     button{
       font-size:22px;
-      width: 150px;
+      width: 200px;
       height: 50px;
     }
+    
     
     .footer{
       font-size:30px; 

@@ -16,6 +16,7 @@ $(".about-scroll").click(function() {
     }, 1000);
 });
 
+
 $(".dropdown").click(function(e){
     $(".dropdown-content").show();
      e.stopPropagation();
