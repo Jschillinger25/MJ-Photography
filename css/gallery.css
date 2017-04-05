@@ -18,16 +18,16 @@
     display:table;
 }
 
+.fa.fa-navicon{
+    color:rgba(60,115,137,.5);
+}
+
 h2{
     font-family: "Great Vibes", cursive;
     text-align: center;
     font-size: 48px;
     margin-top: 0%;
     margin-bottom: 5%;
-}
-
-.dropdown{
-    color:rgba(60,115,137,.5);;
 }
 
 a:hover{

@@ -21,6 +21,10 @@
     padding-bottom:0%;
 }
 
+.fa.fa-navicon{
+    color:rgba(60,115,137,.5);
+}
+
 
 body, html {
    height:100%
@@ -49,10 +53,6 @@ a{
     width: 100%;
     position:relative;
     display:table;
-}
-
-.dropdown{
-    color:rgba(60,115,137,.5);;
 }
 
 a:hover{
@@ -124,7 +124,7 @@ h3{
     padding-left:0%;
 }
 
-img{
+.image img{
     width:500px;
     height:auto;
 }
@@ -251,11 +251,6 @@ img{
 }
 
 @media (max-width: 500px) {
-    
-    .logo img{
-        width:50px;
-        padding-top: 13%;
-    }
     
         .button button{
     font-size:22px;

@@ -628,11 +628,6 @@ button:hover{
 
 @media (max-width: 500px) {
     
-    .logo img{
-        width:50px;
-        padding-top: 13%;
-    }
-    
     form{
         width: 300px;
         right: 50%;
@@ -676,11 +671,7 @@ button:hover{
       height: 50px;
     }
     
-    .logo img{
-        width:50px;
-        padding-top: 13%;
-    }
-    
+ 
     
     .hero-text{
         width: 350px;
@@ -711,14 +702,6 @@ button:hover{
 @media (max-width: 400px) {
     h4{
         font-size: .8rem;
-    }
-    
-    .logo img{
-        width:50px;
-        padding-top: 5%;
-        vertical-align: middle;
-        margin-top:0%;
-        margin-left:2%;
     }
     
     
